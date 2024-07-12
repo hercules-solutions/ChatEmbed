@@ -54,7 +54,7 @@ export const Badge = (props: Props) => {
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> Hercules-Solutions </span>
+        <span> Hercules Solutions </span>
       </a>
     </span>
   );
