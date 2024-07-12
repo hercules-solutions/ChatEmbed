@@ -44,7 +44,7 @@ export const Badge = (props: Props) => {
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
     >
-      By
+      Powered by
       <a
         ref={liteBadge}
         href={'https://hercules-solutions.de'}
@@ -54,7 +54,7 @@ export const Badge = (props: Props) => {
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> Hercules-Solutions</span>
+        <span> Hercules-Solutions </span>
       </a>
     </span>
   );
