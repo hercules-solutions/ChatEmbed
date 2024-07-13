@@ -6,7 +6,7 @@ type Props = {
   badgeBackgroundColor?: string;
 };
 
-const defaultTextColor = '##174b19';
+const defaultTextColor = '#19481b';
 
 export const Badge = (props: Props) => {
   let liteBadge: HTMLAnchorElement | undefined;
@@ -44,7 +44,7 @@ export const Badge = (props: Props) => {
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
     >
-      Powered by
+      By
       <a
         ref={liteBadge}
         href={'https://hercules-solutions.de'}
@@ -54,7 +54,7 @@ export const Badge = (props: Props) => {
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> Hercules Solutions </span>
+        <span> hercules-solutions </span>
       </a>
     </span>
   );
